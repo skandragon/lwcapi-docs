@@ -45,7 +45,7 @@ CLUSTERID | The cluster-id for this application.
     {
       "id": "tQTQF62tsAZCdyC73Rd0IQgZ5Y0",
       "expression": "nf.cluster,skan-test,:eq,name,totalCpu,:eq,:and,:count,(,someMetric,),:by"
-      "frequency": 10000,
+      "frequency": 10000
     }, {
       "id": "asdkqlkfktjrflsjflkwjflkjkd",
       "expression": "nf.cluster,skan-test,:eq,name,totalCpu,:eq,:and,:sum",
